@@ -151,3 +151,10 @@ ul.ticker {
     width: 8em;
   }
 }
+
+input[readonly].readonly{
+  background-color:transparent;
+  border: 0;
+  font-size: 1em;
+  color: #c7254e;
+}

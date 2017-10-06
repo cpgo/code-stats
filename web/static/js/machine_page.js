@@ -14,4 +14,8 @@ function machine_page() {
   });
 }
 
+document.getElementById("api-key").addEventListener("click", (event) => {
+  event.target.select()
+})
+
 export default machine_page;
